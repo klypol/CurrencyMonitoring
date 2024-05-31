@@ -1,4 +1,4 @@
-Currency Exchange Microservice
+Currency Exchange Microservice  
 This is a Python-based microservice that retrieves and displays currency exchange rates from the National Bank of the Republic of Belarus (NBRB) API.
 
 # FEATURES
@@ -14,9 +14,9 @@ This is a Python-based microservice that retrieves and displays currency exchang
 
 # ADDITIONAL FEATURES:
 
--Logging of requests and responses
--CRC32 checksum of the response body in the response header
--Documentation of the developed interaction protocol
+-Logging of requests and responses  
+-CRC32 checksum of the response body in the response header  
+-Documentation of the developed interaction protocol  
 
 # PIP INSTALL  
 • pip install -r requirements.txt  
@@ -24,10 +24,10 @@ This is a Python-based microservice that retrieves and displays currency exchang
 # INSTALLATION
 Clone the repo with
 
-• git clone https://github.com/klypol/CurrencyMonitoring.git
+• git clone https://github.com/klypol/CurrencyMonitoring.git  
 • Create the admin file, which will contain the password variable.
 
 # CURRENCY CODE
-431: USD
-451: EUR
+431: USD  
+451: EUR  
 456: RUB
