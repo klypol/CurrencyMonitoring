@@ -49,7 +49,7 @@ def get_currency(date: str) -> requests.Response:
     Returns:
         requests.Response: The response object from the API request.
     """
-    url = f'https://api.nbrb.by/exrates/rates?ondate={date}&periodicity=1'
+    url = f'https://api.nbrb.by/exrates/rates?ondate={date}&periodicity=0'
     logging.info(f"Отправлен запрос: {url}")
     response = requests.get(url, timeout=10)
     logging.info(f"Получен ответ со статусом: {response.status_code}")
